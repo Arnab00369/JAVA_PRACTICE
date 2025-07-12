@@ -1,8 +1,0 @@
-The steps to follow to Install JDK for Java::
- 1) Open Browser
- 2) Search 'Download JDK'
- 3) Open Oracle website
- 4) Look for LTS(Long Term Support) and new version
- 5) Download according to your preferences : Linux, Windows or MAC OS
- 6) Then install after downloading the file by following the traditional procedure
-    
