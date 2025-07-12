@@ -1,0 +1,8 @@
+There are different kinds of Environment that can be used to write Java Codes::
+1) Command Prompt
+2) Github Codespaces
+3) Online Compiler
+4) VS Code, Eclipse, and BlueJ and other similar IDEs
+
+*** Checking Java Version: javac -version
+*** NOTE : javac ==> Here, 'c' stands for compiler
