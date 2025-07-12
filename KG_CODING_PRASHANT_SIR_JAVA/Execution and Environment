@@ -6,3 +6,10 @@ There are different kinds of Environment that can be used to write Java Codes::
 
 *** Checking Java Version: javac -version
 *** NOTE : javac ==> Here, 'c' stands for compiler
+
+==> EXECUTION (V.V.Important)::
+    =========================
+    1) javac Program_File_Name.java(extension should be written)
+        *** Above command is for compiling the java file
+    2) java Program_File_Name
+        *** After giving this command, we get the output
