@@ -1,6 +1,8 @@
-import java.util.lang.*; //importing package
+import java.lang.*; //importing package
 
-public class First Program //defining class
+//***NOTE(V.V.Important):: 
+// Class name and File Name in JAVA should always be EXACTLY SAME
+public class Program_1 //defining class
 { 
     public static void main(String args[])//defining main function
     {

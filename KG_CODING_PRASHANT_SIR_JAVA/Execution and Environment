@@ -11,5 +11,7 @@ There are different kinds of Environment that can be used to write Java Codes::
     =========================
     1) javac Program_File_Name.java(extension should be written)
         *** Above command is for compiling the java file
+        *** Now, after execution of this very command, we get a byte code file 
+        *** This byte code file will help us to run the actual program to get our desired output
     2) java Program_File_Name
         *** After giving this command, we get the output
