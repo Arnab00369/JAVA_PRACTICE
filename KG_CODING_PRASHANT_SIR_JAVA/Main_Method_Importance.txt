@@ -1,0 +1,12 @@
+**Entry Point:** This is where execution starts,
+ without this JVM does not know where to start running the code
+
+ **Public and Static:**
+ ==> 'public' to access anywhere
+ ==> 'static' --> We can use program without being instatiating the class
+                  or calling and creating objects
+
+**Fixed Signature:**
+public static void main(String args[])
+
+==> Always use this, try not to deviate or change this particular code
