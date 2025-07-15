@@ -8,9 +8,10 @@
 import java.lang.*;
 public class Pattern_1{
     public static void main(String[] args) {
+        System.out.println("The Left Half Pyramid Pattern is as follows::");
         System.out.println("*");
-        System.out.println("**");
-        System.out.println("***");
+        System.out.println("* *");
+        System.out.println("* * *");
         System.out.println("****");
         System.out.println("*****");
     }
