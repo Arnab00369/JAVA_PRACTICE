@@ -1,10 +1,10 @@
 /*Print the following pattern using print function::
-         *
-       * *
-     * * *
-   * * * *
- * * * * *
-
+  * * * * *
+  * * * *
+  * * *
+  * *
+  *
+  
  */
 
 import java.lang.*;
@@ -15,10 +15,6 @@ public class Reverse_Right_Half_Pyramid{
         System.out.println("* * * *");
         System.out.println("* * *");
         System.out.println("* *");
-        System.out.println("*");
-        
-        
-        
-        
+        System.out.println("*");    
     }
 }
