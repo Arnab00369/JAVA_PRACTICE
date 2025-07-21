@@ -2,3 +2,6 @@ modules = ["java-graalvm22.3"]
 
 [nix]
 channel = "stable-24_05"
+
+import os
+os.system("wakatime --write --plugin repl")
