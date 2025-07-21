@@ -1,24 +1,38 @@
 Types::
 1) Binary Trees:
-==> Maximum of 2 children
+   ==> Maximum of 2 children
 
 2) Complete Binary Trees:
     ==> All levels should be filled of 2 children and last level should be filled from left to right
 
 3) Full/ Strict Binary Trees:
-==> Every node either 0 or 2 children (***strict)
+   ==> Every node either 0 or 2 children (***strict)
 
 Use cases: comression/ segment trees
 
 
 4) Perfect Binary Trees:
-==> All levels are full
+   ==> All levels are full
+   ***Formula:
+      =======
+      a) Level = i
+         Nodes at Level 'i' = 2 ^ i
+         
+       b) Height = h, Total no. of nodes = [2 ^ (h+1)] - 1
+       
+       c) Leaf nodes = 2 ^ h
+       d) Internal Nodes = [2 ^ (h+1)] - 1 - (2 ^ h)
 
+       e) No. of leaves = N
+          log (N+1) --> Minimum(atleast) levels
+
+        f) No. of nodes = N
+           Minimum possible height or minimum levels = log(N+1)
 5) Height Balanced Trees:
-==> Average height O(log n)
+   ==> Average height O(log n)
 
 6) Skewed Binary Trees:
-==> Height: O(n), like linked-list
+   ==> Height: O(n), like linked-list
 
 7) Ordered Binary Trees:
     Every node folows some property
