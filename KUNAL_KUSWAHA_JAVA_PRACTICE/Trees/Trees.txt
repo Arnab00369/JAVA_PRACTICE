@@ -7,14 +7,21 @@ Types::
 
 3) Full/ Strict Binary Trees:
    ==> Every node either 0 or 2 children (***strict)
+   
+   ***Properties and Formulae:
+      =======================
+      a) N = Leaf Nodes
+         N - 1 = Internal Nodes
+
+         -->> No. of Leaf Nodes = No. of internal nodes + 1
 
 Use cases: comression/ segment trees
 
 
 4) Perfect Binary Trees:
    ==> All levels are full
-   ***Formula:
-      =======
+   ***Properties and Formulae:
+      =======================
       a) Level = i
          Nodes at Level 'i' = 2 ^ i
          
@@ -40,3 +47,6 @@ Use cases: comression/ segment trees
         ===================
         => Left node - Smaller value
         => Right node - Larger value
+
+
+*** DEGREE - No. of children in each node
