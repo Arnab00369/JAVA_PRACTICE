@@ -7,3 +7,9 @@ Types::
 
 3) Full/ Strict Binary Trees:
 ==> Every node either 0 or 2 children (***strict)
+
+Use cases: comression/ segment trees
+
+
+4) Perfect Binary Trees:
+==> All levels are full
