@@ -13,3 +13,16 @@ Use cases: comression/ segment trees
 
 4) Perfect Binary Trees:
 ==> All levels are full
+
+5) Height Balanced Trees:
+==> Average height O(log n)
+
+6) Skewed Binary Trees:
+==> Height: O(n), like linked-list
+
+7) Ordered Binary Trees:
+    Every node folows some property
+    ==> Binary Search Trees::
+        ===================
+        => Left node - Smaller value
+        => Right node - Larger value
