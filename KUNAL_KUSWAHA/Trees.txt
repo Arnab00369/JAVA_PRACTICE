@@ -1,0 +1,9 @@
+Types::
+1) Binary Trees:
+==> Maximum of 2 children
+
+2) Complete Binary Trees:
+    ==> All levels should be filled of 2 children and last level should be filled from left to right
+
+3) Full/ Strict Binary Trees:
+==> Every node either 0 or 2 children (***strict)
