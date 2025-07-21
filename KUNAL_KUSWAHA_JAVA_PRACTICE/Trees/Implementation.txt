@@ -1,0 +1,5 @@
+There are many ways to implement Trees(Binary Trees, especially):
+
+1) Linked representation
+2) Sequential --> Using Array
+

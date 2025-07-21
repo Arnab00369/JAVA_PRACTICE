@@ -10,10 +10,12 @@ Types::
    
    ***Properties and Formulae:
       =======================
-      a) N = Leaf Nodes
-         N - 1 = Internal Nodes
+      ## N = Leaf Nodes
+      ## N - 1 = Internal Nodes
 
-         -->> No. of Leaf Nodes = No. of internal nodes + 1
+         ==>> No. of Leaf Nodes = No. of internal nodes + 1
+         
+         ==>> No. of Leaf Nodes = 1 + No. of Internal Nodes with 2 children(excluding Root Node)
 
 Use cases: comression/ segment trees
 
