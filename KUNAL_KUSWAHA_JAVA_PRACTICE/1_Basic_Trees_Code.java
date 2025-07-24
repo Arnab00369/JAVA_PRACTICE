@@ -23,12 +23,23 @@ class 1_Basic_Trees_Code{
    }
 
    private void populate(Scanner scanner, Node node){
+
+      //Inserting Left Node
       System.out.println("Do you want to enter left of "+node.value);
       boolean left = scanner.nextBoolean();
       if(left){
          System.out.println("Enter the value of left node = "+node.value);
          node.left = new Node(value);
          populate(scanner, node.left);
+      }
+
+      //Inserting Right Node
+      System.out.println("Do you want to enter right of "+node.value);
+      boolean right = scanner.nextBoolean();
+      if(right){
+         System.out.println("Enter the value of left node = "+node.value);
+         node.right = new Node(value);
+         populate(scanner, node.right);
       }
    }
 }
