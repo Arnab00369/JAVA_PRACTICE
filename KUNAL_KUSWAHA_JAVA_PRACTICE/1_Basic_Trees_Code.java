@@ -17,8 +17,18 @@ class 1_Basic_Trees_Code{
    //Insert elements
    public void populate(Scanner scanner){
       System.out.println("Enter the root node value = ");
-      innt value = scanner.nextInt();
+      int value = scanner.nextInt();
       root = new Node(value);
+      populate(scanner,root);
+   }
 
+   private void populate(Scanner scanner, Node node){
+      System.out.println("Do you want to enter left of "+node.value);
+      boolean left = scanner.nextBoolean();
+      if(left){
+         System.out.println("Enter the value of left node = "+node.value);
+         node.left = new Node(value);
+         populate(scanner, node.left);
+      }
    }
 }
