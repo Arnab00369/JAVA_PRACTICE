@@ -45,48 +45,6 @@ Clean, topic-wise segregation helps you tackle real-world coding challenges—fr
 
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Tech Stack</title>
-  <style>
-    body {
-      background-color: #121212;
-      color: #f0f0f0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      padding: 2rem;
-    }
-    h2 {
-      font-size: 2rem;
-      color: #ffcb6b;
-    }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      background-color: #1e1e1e;
-      border-radius: 10px;
-      overflow: hidden;
-    }
-    th, td {
-      text-align: left;
-      padding: 12px 16px;
-      font-size: 1rem;
-    }
-    th {
-      background-color: #2a2a2a;
-      color: #e0e0e0;
-    }
-    tr:nth-child(even) {
-      background-color: #2c2c2c;
-    }
-    .badge {
-      vertical-align: middle;
-    }
-  </style>
-</head>
-<body>
 
   <h2>🛠️ Tech Stack</h2>
 
